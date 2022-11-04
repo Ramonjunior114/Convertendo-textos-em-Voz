@@ -1,0 +1,11 @@
+#Importe a biblioteca necessaria 
+import pyttsx3 
+
+#carregar a biblioteca de covercao 
+maquina = pyttsx3.init()
+
+#texto que vai ser convertido em voz
+maquina.say('Ola mundo, como voce esta')
+
+#executar 
+maquina.runAndWait()
